@@ -164,10 +164,17 @@ nav li a{
       height: 420px;
       border-radius: 10px;
     }
-    .discount-head, .discount-link{
+    .discount-head{
       font-size: 20px;
       font-weight: bold;
       color: #fff;
+      padding: 70px 60px 0px 70px;
+    }
+    .discount-link{
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+      padding: 70px 0px 0px 120px;
     }
     .discount{
       margin: 0px 20px 10px 100px;
@@ -176,10 +183,82 @@ nav li a{
       display: flex;
       align-items: center;
     }
-     .discount-head2, .discount-link2{
+     .discount-head2{
       font-size: 40px;
       font-weight: bold;
       color: #fff;
+      padding: 70px 60px 0px 200px;
+
+    }
+    .discount-link2{
+      font-size: 40px;
+      font-weight: bold;
+      color: #fff;
+      padding: 70px 60px 0px 300px;
+    }
+    /* .branch-title{
+      text-align: center;
+    } */
+    .branch{
+      font-size: 50px;
+      font-weight: bold;
+      color: #fff;
+      padding: 200px 150x;
+    }
+    input{
+      width: 650px;
+      height: 50px;
+    }
+    .btn{
+      background-color: #E95A08;
+      width: 180px;
+      height: 50px;
+      color: #fff;
+    }
+    .branch-title{
+      background-image: url(/image/news-letter-bg.png);
+      width: 100%;
+      height: 530px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .branch{
+      padding-left: 100px;
+    }
+     .final-item{
+      display: flex;
+      justify-content: space-between;
+      max-width: 1170px;
+      margin: 100px 150px;
+      gap: 20px;     
+    }
+    .logo-sec{
+      width: 360px;
+      height: 180px;
+    }
+    .all-link ul{
+      list-style: none;
+      
+    }
+    .all-link li a{
+      text-decoration: none;
+    }
+    .all-link ul{
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      gap: 40px 40px;
+    }
+    .contact-info img{
+      margin: 10px;
+    }
+    .logo-description{
+      font-size: 22px;
+      font-weight: 400;
+    }
+    .nw{
+      font-size: 16px;
+      font-weight: 400;
     }
 /* Responsive Style */
 @media screen and (max-width: 576px) {
@@ -237,17 +316,47 @@ nav li a{
       margin: 0 50px 0 0 ;
     }
     .discount-head2{
-      width: 300px;
-      height: 200px;
       font-size: 20px;
       font-weight: bold;
+      padding: 50px 30px 0px 70px;
     }
     .discount2{
       width: 360px;
       height: 200px;
       margin-left: 65px;
+      
     }
     .discount-link2{
-      display: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px 30px 10px 120px;
     }
+    .branch{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    input{
+      width: 200px;
+    }
+    .btn{
+      width: 100px;
+    }
+    input{
+      margin-left: 50px;
+    }
+    .branch-title{
+      width: 400px;
+      height: 275px;
+    }
+   .final-item{
+    flex-direction: column;
+    margin: 10px;
+   }
+   .contact-info{
+    display: flex;
+   }
+   .all-link ul{
+    grid-template-columns: none;
+    padding: 0;
+   }
 }
