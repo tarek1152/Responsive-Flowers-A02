@@ -111,6 +111,29 @@ nav li a{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;}
+    .badge img{
+      width: 286px;
+      margin-bottom: 0px;
+      margin-left: 540px;
+      position: relative;
+      
+    }
+    .Plants-lover{
+      display: flex;
+      justify-content: space-between;
+      margin: -130px 150px 0px 150px;
+      gap: 60px;
+      
+
+    }
+    .plant-lover{
+      font-size: 50px;
+      font-weight: bold;
+    }
+    .plant-list{
+      font-size: 22px;
+      font-weight: 400;
+    }
 /* Responsive Style */
 @media screen and (max-width: 576px) {
     .navbar-item{
@@ -143,5 +166,19 @@ nav li a{
     .card-main{
         grid-template-columns: repeat(2, 1fr);
     }
+    .badge{
+      display: none;
+    }
+    .Plants-lover{
+      margin: 100px 0px;
+      flex-direction: column;
+    }
+    .image img{
+      width: 400px;
+    }
+    .plant-all{
+      margin-top: 0px;
+    }
+
 
 }
